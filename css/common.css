@@ -31,7 +31,6 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   background: transparent;
-  border-bottom: 1px solid;
   box-sizing: border-box;
 }
 
