@@ -1,28 +1,22 @@
 body {
-  margin: 0;
-  padding: 0;
   background-color: #e5e7eb;
-  max-width: 1200px;
+  padding: 0;
+  margin: 0;
 }
 .wrap {
   margin: 0;
   padding: 0;
 }
 .content_area {
-  width: 100%;
-  height: 100%;
-  margin: 0;
   padding: 0 50px;
   box-sizing: border-box;
 }
-/* 헤더 */
-.header {
-  width: 100%;
-  height: 130px;
-  position: fixed;
-  background: grey;
-  box-sizing: border-box;
+
+a {
+  text-decoration: none;
 }
+
+/* 헤더 */
 .ham_btn {
   width: 50px;
   height: 50px;
@@ -30,11 +24,68 @@ body {
   cursor: pointer;
   box-sizing: border-box;
 }
-.logo{
-width: 150px;
-height: 100%;
-background-image: url();
+
+.header {
+  width: 100%;
+  height: 100px;
+  /* position: fixed; */
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: transparent;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+
 }
+
+.logo{
+  width: 200px;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(../img/logo0.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+.nav {
+width: 350px;
+height: 100%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+.nav div {
+  display: inline;
+
+}
+.menu {
+width: 200px;
+height: 100%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+.menu div {
+  display: inline;
+}
+.search {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-image: url(../img/header_search_black.png);
+}
+.cart {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  background-image: url(../img/cart_black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 /* 풋터 */
 .footer {
