@@ -24,7 +24,7 @@ a {
   width: 100%;
   height: 100px;
   max-width: 1200px;
-  position: fixed;
+  /* position: fixed; */
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -55,6 +55,7 @@ a {
 }
 .nav div {
   display: inline;
+  color: black;
 }
 
 /* 햄버거 버튼 */
@@ -62,7 +63,7 @@ a {
   width: 100px;
   height: 100px;
   box-sizing: border-box;
-  padding: 35px;
+  padding: 4vw;
 }
 .ham_btn {
   width: 100%;
