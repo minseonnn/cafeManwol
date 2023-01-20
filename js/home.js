@@ -1,6 +1,11 @@
 //스크롤 이벤트 
-let mhtml = ${"html"};
-let page = 1;
+window.addEventListener("wheel", function(e){
+  e.preventDefault();
+},{passive : false});
+
+var mHtml = $("html");
+var page = 1;
+
 
 mHtml.animate({scrollTop : 0},10);
 
