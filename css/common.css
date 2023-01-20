@@ -16,26 +16,21 @@ a {
   text-decoration: none;
 }
 
-/* 헤더 */
-.ham_btn {
-  width: 50px;
-  height: 50px;
-  display: none;
-  cursor: pointer;
-  box-sizing: border-box;
-}
+/* top버튼 */
 
+
+/* 헤더 */
 .header {
   width: 100%;
   height: 100px;
-  /* position: fixed; */
+  max-width: 1200px;
+  position: fixed;
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   background: transparent;
   border-bottom: 1px solid;
   box-sizing: border-box;
-
 }
 
 .logo{
@@ -49,45 +44,40 @@ a {
   cursor: pointer;
 }
 .nav {
-width: 350px;
-height: 100%;
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-around;
+  width: 430px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
 }
 .nav div {
   display: inline;
-
-}
-.menu {
-width: 200px;
-height: 100%;
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
-}
-.menu div {
-  display: inline;
-}
-.search {
-  width: 40px;
-  height: 40px;
-  box-sizing: border-box;
-  background-image: url(../img/);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.cart {
-  width: 40px;
-  height: 40px;
-  box-sizing: border-box;
-  background-image: url(../img/cart_black.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
+/* 햄버거 버튼 */
+.ham_btn_wrapper {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 35px;
+}
+.ham_btn {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: black;
+}
 
 /* 풋터 */
 .footer {
