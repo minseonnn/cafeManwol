@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e7eb;
+  max-width: 1200px;
+}
+.wrap {
+  margin: 0;
+  padding: 0;
+}
+.content_area {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+/* 헤더 */
+.header {
+  width: 100%;
+  height: 130px;
+  position: fixed;
+  background: grey;
+  box-sizing: border-box;
+}
+.ham_btn {
+  width: 50px;
+  height: 50px;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: ;
+}
+.logo{
+width: 150px;
+height: 100%;
+background-image: url();
+}
+
+/* 풋터 */
+.footer {
+
+}
