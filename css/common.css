@@ -16,21 +16,22 @@ a {
   text-decoration: none;
 }
 
-/* top버튼 */
-  .top_btn {
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    box-shadow: 0px -1px 16px -1px azure;
-    color: #fff8;
-    position: fixed;
-    bottom: 50px; right: 50px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 15px;
-    display: none;
-  }
+
+.top_btn {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  box-shadow: 0px -1px 16px -1px azure;
+  color: #fff8;
+  position: fixed;
+  bottom: 50px; 
+  right: 50px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+  display: none;
+}
 
 
 /* 헤더 */
