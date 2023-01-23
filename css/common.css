@@ -3,35 +3,23 @@ body {
   padding: 0;
   margin: 0;
 }
-.wrap {
-  margin: 0;
-  padding: 0;
-}
-.content_area {
-  padding: 0 50px;
-  box-sizing: border-box;
-}
 
 a {
   text-decoration: none;
 }
 
-/* 헤더 */
 .header {
+  max-width: 1200px;
   width: 100%;
   height: 100px;
-  max-width: 1200px;
-  padding: 0 50px;
-  box-sizing: border-box;
+  padding: 20px 70px;
   position: fixed;
+  background: transparent;
+  z-index: 100;
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background: transparent;
-  box-sizing: border-box;
-  z-index: 999;
 }
-
 .logo{
   width: 200px;
   height: 100%;
@@ -52,23 +40,20 @@ a {
   align-items: center;
   font-size: 16px;
 }
-.nav div  {
-  display: inline;
-  color: black;
+.nav div a  {
+  color: #000000;
   font-family: 'Fira Sans', sans-serif;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 /* 햄버거 버튼 */
-.ham_btn_wrapper {
+.ham_btn {
   width: 100px;
   height: 100px;
   box-sizing: border-box;
   padding: 35px;
 }
 .ham_btn {
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -81,7 +66,7 @@ a {
   background: black;
   font-family: 'Fira Sans', sans-serif;
   font-family: 'Libre Franklin', sans-serif;
-}
+} */
 
 /* 풋터 */
 .footer {
