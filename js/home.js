@@ -5,6 +5,5 @@ $(document).ready(function() {
 		scrollHorizontally: true
 	});
 
-	//methods
-	$.fn.fullpage.setAllowScrolling(false);
+	
 });
