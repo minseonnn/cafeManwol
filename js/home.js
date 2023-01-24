@@ -17,11 +17,11 @@ $(document).ready(function() {
 		// 	//$.fn.fullpage.setScrollingSpeed(700); 효과를 없애고싶을때
 		// });
   
-    afterRender: function () {
-        setInterval(function () {
-            $.fn.fullpage.moveSlideRight();
-        }, 4500);
-    }
+    // afterRender: function () {
+    //     setInterval(function () {
+    //         $.fn.fullpage.moveSlideRight();
+    //     }, 4500);
+    // }
 	});
 
 	document.querySelector('.fp-slidesNav>ul').style.marginLeft='50%';

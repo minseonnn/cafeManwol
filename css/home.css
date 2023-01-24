@@ -1,20 +1,20 @@
 @font-face {
-	font-family: 'Gmarket SansB';    font-style: normal;    font-weight: 700;
-	src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff') format('woff'); 
+  font-family: 'Gmarket SansL';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Gmarket SansM';    font-style: normal;    font-weight: 500;
-	src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff') format('woff'); 
+  font-family: 'Gmarket SansM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Gmarket SansL';    font-style: normal;    font-weight: 300;
-	src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff') format('woff'); 
+  font-family: 'Gmarket SansB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
 
 
