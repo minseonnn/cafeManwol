@@ -32,7 +32,7 @@
 }
 .sld3 {
   background-image: url(../img/banner1.png);
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -45,16 +45,16 @@
 
 .b_link1 {
   position: absolute;
-  bottom: 5vw;
+  bottom: 11vw;
   left: 34vw;
-  width: 120px;
-  height: 60px;
+  width: 110px;
+  height: 50px;
   border-radius: 5%;
   background-color: #ffff;
   opacity: 0.8;
   font-size: 20px;
   text-align: center;
-  line-height: 60px;
+  line-height: 50px;
   font-family: 'Libre Franklin', sans-serif;
   letter-spacing: 1px;
   transition:all 1s;
@@ -93,6 +93,7 @@
 }
 .sld2 p:nth-child(2), .sld2 p:nth-child(3), .sld2 p:nth-child(4) {
   font-family: 'Gmarket SansL', sans-serif;
+  font-weight: lighter;
   bottom: 25vw;
   left: 159vw;
   font-size: 2vw;
