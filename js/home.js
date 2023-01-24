@@ -24,7 +24,10 @@ $(document).ready(function() {
     }
 	});
 
-	document.querySelector('.fp-slidesNav>ul').style.marginLeft='50%';
+	// document.querySelector('.fp-slidesNav>ul').style.marginLeft='50%';
 
+  // let logo = document.querySelector('.logo');
+  // let L_index = 0;
   
+  // if()
 });

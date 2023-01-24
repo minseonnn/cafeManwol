@@ -1,20 +1,14 @@
 @font-face {
 	font-family: 'Gmarket SansB';    font-style: normal;    font-weight: 700;
-	src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff') format('woff'); 
+	src: url(../font/GmarketSansTTFBold.woff),format('woff');
 }
 @font-face {
 	font-family: 'Gmarket SansM';    font-style: normal;    font-weight: 500;
-	src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff') format('woff'); 
+	src: url(../font/GmarketSansTTFMedium.woff), format('woff');
 }
 @font-face {
 	font-family: 'Gmarket SansL';    font-style: normal;    font-weight: 300;
-	src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
-	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff2') format('woff2'), 
-	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff') format('woff'); 
+	src: url(../font/GmarketSansTTFLight.woff), format('woff');
 }
 
 
