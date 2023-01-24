@@ -1,6 +1,27 @@
+@font-face {
+	font-family: 'Gmarket SansB';    font-style: normal;    font-weight: 700;
+	src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
+	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff2') format('woff2'), 
+	url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff') format('woff'); 
+}
+@font-face {
+	font-family: 'Gmarket SansM';    font-style: normal;    font-weight: 500;
+	src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
+	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff2') format('woff2'), 
+	url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff') format('woff'); 
+}
+@font-face {
+	font-family: 'Gmarket SansL';    font-style: normal;    font-weight: 300;
+	src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
+	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff2') format('woff2'), 
+	url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff') format('woff'); 
+}
+
+
 .sld1{
   background-image: url(../img/banner4-1.jpeg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .sld2 {
@@ -15,9 +36,129 @@
   background-repeat: no-repeat;
 }
 .sld4 {
-  background-image: url(../img/3ad276df6b323.jpg);
+  background-image: url(../img/314131300_1189006215374568_6978199465067658399_n.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.b_link1 {
+  position: absolute;
+  bottom: 5vw;
+  left: 35vw;
+  width: 120px;
+  height: 60px;
+  border-radius: 5%;
+  background-color: #ffff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1px;
+  transition:all 1s;
+  transform: translate(5px 0);
+}
+
+.b_link1:hover {
+  background-color: #9b9b9b;
+  color: #fff;
+}
+
+.sld1 p {
+  position: absolute;
+  bottom: 12vw;
+  left: 6vw;
+  color: #efeded;
+  font-size: 3vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Gmarket SansB', sans-serif;
+}
+.sld1 p:nth-child(2) {
+  bottom: 10vw;
+  left: 20vw;
+  font-family: 'Gmarket SansL', sans-serif;
+  font-size: 2vw;
+}
+
+.sld2 p{
+  position: absolute;
+  color: #000000;
+  font-family: 'Gmarket SansB', sans-serif;
+  font-size: 3vw;
+  letter-spacing: 1px;
+  bottom: 28vw;
+  left: 158vw;
+}
+.sld2 p:nth-child(2), .sld2 p:nth-child(3), .sld2 p:nth-child(4) {
+  font-family: 'Gmarket SansL', sans-serif;
+  bottom: 25vw;
+  left: 159vw;
+  font-size: 2vw;
+}
+.sld2 p:nth-child(3) {
+  bottom: 22vw;
+}
+.sld2 p:nth-child(4) {
+  bottom: 19vw;
+}
+.sld2 div {
+  left: 181vw;
+  bottom: 14vw;
+}
+
+.sld3 p {
+  position: absolute;
+  left: 204vw;
+  bottom: 25vw;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'Gmarket SansB', sans-serif;
+  font-size: 3vw;
+}
+.sld3 p:nth-child(2), .sld3 p:nth-child(3) {
+  font-family: 'Gmarket SansL', sans-serif;
+  font-size: 2vw;
+  bottom: 22vw;
+}
+.sld3 p:nth-child(3) {
+  bottom: 19vw;
+}
+.sld3 div {
+  left: 204vw;
+  bottom: 14vw;
+}
+
+.sld4 p {
+  position: absolute;
+  left: 303vw;
+  bottom: 22vw;
+  color: #ffff;
+  font-family: 'Gmarket SansB', sans-serif;
+  font-size: 3vw;
+  letter-spacing: 1px;
+}
+.sld4 p:nth-child(2), .sld4 p:nth-child(3), .sld4 p:nth-child(4){
+  font-family: 'Gmarket SansL', sans-serif;
+  font-size: 2vw;
+  left: 304vw;
+  bottom: 16vw;
+}
+.sld4 p:nth-child(2) {
+  bottom: 20vw;
+  left: 324vw;
+}
+.sld4 p:nth-child(4) {
+  bottom: 13vw;
+}
+.sld4 div {
+  left: 338vw;
+  bottom: 8vw;
+}
+
+.sec2 {
+  background-image: url(../img/ceefd1597e5fc.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-position: center;
+}

@@ -13,12 +13,16 @@ a {
   width: 100%;
   height: 100px;
   padding: 20px 70px;
+  box-sizing: border-box;
   position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   background: transparent;
   z-index: 100;
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  /* border-bottom: 1px solid darkgrey; */
 }
 .logo{
   width: 200px;
@@ -38,7 +42,7 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 17px;
 }
 .nav div a  {
   color: #000000;
@@ -48,27 +52,25 @@ a {
 
 /* 햄버거 버튼 */
 .ham_btn {
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 100%;
+  padding-top: 20px;
   box-sizing: border-box;
-  padding: 35px;
-}
-.ham_btn {
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
   cursor: pointer;
+  text-align: center;
+  font-weight: 900;
 }
 .line {
   width: 100%;
   height: 1px;
+  margin-bottom: 10px;
   background: black;
   font-family: 'Fira Sans', sans-serif;
   font-family: 'Libre Franklin', sans-serif;
-} */
+} 
 
 /* 풋터 */
 .footer {
-
+width: 100%;
+height: 10vw;
 }
