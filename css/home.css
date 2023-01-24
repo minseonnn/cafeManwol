@@ -18,6 +18,7 @@
 }
 
 
+
 .sld1{
   background-image: url(../img/banner4-1.jpeg);
   background-size: cover;
@@ -45,11 +46,12 @@
 .b_link1 {
   position: absolute;
   bottom: 5vw;
-  left: 32vw;
+  left: 34vw;
   width: 120px;
   height: 60px;
   border-radius: 5%;
   background-color: #ffff;
+  opacity: 0.8;
   font-size: 20px;
   text-align: center;
   line-height: 60px;
@@ -134,9 +136,13 @@
   left: 303vw;
   bottom: 22vw;
   color: #ffff;
-  font-family: 'Gmarket SansB', sans-serif;
+  font-family: 'Gmarket SansL', sans-serif;
   font-size: 3vw;
   letter-spacing: 1px;
+}
+.sld4 p:nth-child(1){
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
 }
 .sld4 p:nth-child(2), .sld4 p:nth-child(3), .sld4 p:nth-child(4){
   font-family: 'Gmarket SansL', sans-serif;
