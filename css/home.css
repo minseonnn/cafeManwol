@@ -45,27 +45,19 @@
 
 .b_link1 {
   position: absolute;
-<<<<<<< HEAD
-  bottom: 11vw;
-  left: 34vw;
-  width: 115px;
-  height: 50px;
-  border-radius: 5px;
-=======
   bottom: 5vw;
   left: 34vw;
   width: 120px;
   height: 60px;
   border-radius: 5%;
->>>>>>> 138efe61dfa97db07a416a453f386137dd80a661
   background-color: #ffff;
   opacity: 0.8;
   font-size: 20px;
   text-align: center;
-  line-height: 50px;
+  line-height: 60px;
   font-family: 'Libre Franklin', sans-serif;
   letter-spacing: 1px;
-  transition: all 1s;
+  transition:all 1s;
   transform: translate(5px 0);
 }
 
