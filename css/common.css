@@ -18,7 +18,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   background: transparent;
-  z-index: 100;
+  z-index: 500;
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
