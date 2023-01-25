@@ -17,8 +17,6 @@
   font-style: normal;
 }
 
-
-
 .sld1{
   background-image: url(../img/banner4-1.jpeg);
   background-size: cover;
@@ -141,7 +139,7 @@
   letter-spacing: 1px;
 }
 .sld4 p:nth-child(1){
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Yeseva One', cursive;
   font-weight: 900;
 }
 .sld4 p:nth-child(2), .sld4 p:nth-child(3), .sld4 p:nth-child(4){
@@ -151,6 +149,7 @@
   bottom: 16vw;
 }
 .sld4 p:nth-child(2) {
+  font-family: 'Yeseva One', cursive;
   bottom: 20vw;
   left: 324vw;
 }
@@ -171,18 +170,18 @@
 .opa_black{
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .s2_txt {
+  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Unna', serif;
-  font-weight: 700;
-  font-size: 2vw;
+  font-weight: 900;
   color: #ffff;
-  font-size: 6vw;
+  font-size: 7vw;
   margin: 0;
   z-index: 700;
   padding: 0;
@@ -204,4 +203,25 @@
 .s2_txt:hover p{
   color: #142f5f;
   transition: all 1s;
+}
+
+.sec3{
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-pagination{
+
+}
+.swiper-pagination-bullet {
+  background-color: #142f5f;
+  width: 12px;
+  height: 12px;
 }

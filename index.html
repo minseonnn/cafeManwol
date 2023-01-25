@@ -9,21 +9,18 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="./js/jquery.fullPage.js"></script>
   <script src="./js/home.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="./js/common.js"></script>
   <link rel="stylesheet" href="./css/jquery.fullPage.css">
-  <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Libre+Franklin&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Libre+Franklin&family=Nanum+Gothic&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Libre+Franklin&family=Nanum+Gothic&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Libre+Franklin&family=Nanum+Gothic&family=Roboto+Slab:wght@700&family=Unna:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/home.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+  </style>
+
 </head>
 <body>
   <div class="header">
@@ -40,14 +37,17 @@
     </div>
   </div>
   </div>
+  <a href="#section1">
+    <button class="top_btn"></button>
+  </a>
   <div id="fullpage">
-    <div class="section sec1">
+    <div class="section sec1" id="section1">
       <div class="slide sld1">
         <p class="b_txt">취향껏 즐기는 나만의 홈카페</p>
         <p>당신의 취향은 무엇인가요?</p>
         <div class="b_link1">Buy now</div>
       </div>
-	    <div class="slide sld2">
+	    <div class="slide sld2" >
         <p >#만월회_시그니처_1위</p>
         <p>정성스럽게 우린 얼그레이의 향과</p>
         <p>입안 가득 퍼지는 아쌈의</p>
@@ -78,7 +78,53 @@
         </a>
       </div>
     </div>
-    <div class="section sec3" ></div>
+    <div class="section" >
+      <div class="swiper sec3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/d303ad5ba9db3.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/271144556_304731611439236_2472517441834248028_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/265942010_129274462871340_1962423652913167875_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/327277694_493701552837735_2612537996507002737_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/318932205_133510779539493_4237833775813507315_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/271172967_592386298511256_8714147242747808699_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="$">
+              <img src="./img/288874846_2809120596050785_5313603288664687065_n.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./img/273548265_122653810296517_1971324416324272397_n.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
     <div class="section sec4" ></div>
     <div class="section fp-auto-height" >
       <div class="footer"></div>
