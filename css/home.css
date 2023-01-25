@@ -201,3 +201,7 @@
   font-size: 18px
   ;
 }
+.s2_txt:hover p{
+  color: #142f5f;
+  transition: all 1s;
+}
