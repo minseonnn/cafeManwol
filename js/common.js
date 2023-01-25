@@ -14,10 +14,11 @@ const swiper = new Swiper('.swiper', {
   //   nextEl: '.swiper-button-next',
   //   prevEl: '.swiper-button-prev',
   // },
+  autoHeight: false,
   speed: 2500,
   spaceBetween: 20,
   slidesPerView : 3,
-  // loopAdditionalSlides:1,
+  loopAdditionalSlides:1,
   autoplay: {
     delay:4500,
     disableOnInteraction: false,
