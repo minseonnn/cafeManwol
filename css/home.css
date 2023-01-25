@@ -205,10 +205,11 @@
   transition: all 1s;
 }
 
-/* .swiper{
-  width: 350px;
-  height: 350px;
-} */
+.swiper{
+  width: 100%;
+  height: 100%;
+  background-color: #142f5f;
+}
 .swiper-slide{
   width: 100%;
   background-color: aquamarine;
@@ -217,88 +218,90 @@
 .swiper-slide a {
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .megazin{
   margin: 0 auto;
   width: 100%;
   height: 65%;
-  background-color: cornflowerblue;
 }
 .mega_head{
   width: 100%;
   height: 10%;
-  background-color: coral;
+}
+.megaz1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/288874846_2809120596050785_5313603288664687065_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz2 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/293462548_1009590026408241_6100688302313113534_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz3 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/327277694_493701552837735_2612537996507002737_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz4 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/241799666_868548177148141_4591567237786657978_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz5 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/238271353_1195518027619672_1773767852142831003_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz6 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/149611945_175953490657827_3529920725377026245_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz7 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/273548265_122653810296517_1971324416324272397_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.megaz8 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/242562542_2977802909144396_83030365729947734_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.megaz1{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/288874846_2809120596050785_5313603288664687065_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* z-index: 500; */
-}
-.megaz2{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/264887423_405780337950692_3909289030179605918_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz3{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/293462548_1009590026408241_6100688302313113534_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz4{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/327277694_493701552837735_2612537996507002737_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz5{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/326553785_855823975712012_4393862458205652623_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz6{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/141387346_198019508723746_5740677952447949317_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz7{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/149611945_175953490657827_3529920725377026245_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.megaz8{
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/273548265_122653810296517_1971324416324272397_n.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
+
+
 
 .swiper-pagination-bullet {
   background-color: #142f5f;
   width: 12px;
   height: 12px;
 }
+

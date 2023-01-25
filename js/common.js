@@ -14,6 +14,7 @@ const swiper = new Swiper('.swiper', {
   //   nextEl: '.swiper-button-next',
   //   prevEl: '.swiper-button-prev',
   // },
+  centeredSlides : true,
   autoHeight: false,
   speed: 2500,
   spaceBetween: 20,
