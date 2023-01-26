@@ -9,6 +9,7 @@ $(document).ready(function() {
     controlArrows: false,
     loopBottom: true,
     responsiveWidth: 1200, 
+    anchors: ['section1', 'section2', 'section3', 'section4'],
 
     afterRender: function () {
       setInterval(function () {
@@ -19,7 +20,7 @@ $(document).ready(function() {
 
 	});
 
-	document.querySelector('.fp-slidesNav>ul').style.marginLeft='50%';
+  
 
 });
   

@@ -1,165 +1,187 @@
+
 @font-face {
-  font-family: 'Gmarket SansL';
+  font-family: 'GmarketSans';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Gmarket SansM';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Gmarket SansB';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
 }
 
+.swiper.swiper1{
+  width: 100%;
+  height: 100%;
+}
+.swiper1 .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.swiper_container1 .swiper-slide{
+  width: 100%;
+  height: 100%;
+}
+/* .swiper-slide div {
+  width: 100%;
+  height: 100%;
+} */
+
+.swiper1 .swiper-pagination-bullet {
+  background-color: #142f5f;
+  width: 12px;
+  height: 12px;
+}
+
+.b_link {
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  transition: all 1s;
+  transform: translate(5px 0);
+  bottom: 11vw;
+  float: right;
+  font-family: 'Yeseva One';
+  color: #fff;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  margin-top: 10px;
+}
+
 .sld1{
+  width: 100%;
+  height: 100%;
   background-image: url(../img/banner4-1.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
+
+.sld_twrap1 {
+  position: absolute;
+  left: 5%;
+  top: 70%;
+  box-sizing: border-box;
+}
+.sld_twrap1 p {
+  color: #efeded;
+  letter-spacing: 1px;
+}
+.s1_txt1-1 {
+  font-size: 3vw;
+  font-family: 'GmarketSans', sans-serif;
+  font-weight: 700;
+}
+.s1_txt1-2 {
+  font-family: 'GmarketSans', sans-serif;
+  font-size: 2vw;
+}
+.b_link:hover {
+  border: 1.5px solid #fff;
+  transition: all 0.1s;
+}
+
+
 .sld2 {
+  width: 100%;
+  height: 100%;
   background-image: url(../img/05123449fd05b.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
+.sld_twrap2 {
+  position: absolute;
+  left: 60%;
+  top: 38%;
+  box-sizing: border-box;
+}
+
+.sld_twrap2 p{
+  color: #000000;
+  font-family: 'GmarketSans', sans-serif;
+  letter-spacing: 1px;
+}
+.s2_txt2-1{
+  font-size: 3vw;
+  font-weight: 700;
+}
+.s2_txt2-2, .s2_txt2-3, .s2_txt2-4 {
+  font-size: 2vw;
+}
+.sld_twrap2 .b_link {
+  color:#000000;
+  margin-top: 10px;
+}
+.sld_twrap2 .b_link:hover {
+  border: 1.5px solid #000000;
+}
+
 .sld3 {
+  width: 100%;
+  height: 100%;
   background-image: url(../img/banner1.png);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.sld_twrap3 {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+}
+.s3_txt3-2, .s3_txt3-3 {
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'GmarketSans', sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+}
+.s3_txt3-1{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 3vw;
+  font-weight: 700;
+  font-family: 'GmarketSans', sans-serif;
+}
+.sld3_twrap3 .b_link {
+  float: left;
+}
+
 .sld4 {
+  width: 100%;
+  height: 100%;
   background-image: url(../img/314131300_1189006215374568_6978199465067658399_n.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.b_link1 {
+.sld_twrap4{
   position: absolute;
-  bottom: 11vw;
-  left: 34vw;
-  width: 110px;
-  height: 50px;
-  border-radius: 5%;
-  background-color: #ffff;
-  opacity: 0.8;
-  font-size: 20px;
-  text-align: center;
-  line-height: 50px;
-  font-family: 'Libre Franklin', sans-serif;
-  letter-spacing: 1px;
-  transition:all 1s;
-  transform: translate(5px 0);
+  left: 5%;
+  top: 60%;
 }
-
-.b_link1:hover {
-  background-color: #9b9b9b;
-  color: #fff;
-}
-
-.sld1 p {
-  position: absolute;
-  bottom: 12vw;
-  left: 6vw;
-  color: #efeded;
-  font-size: 3vw;
-  letter-spacing: 1px;
-  font-family: 'Gmarket SansB', sans-serif;
-}
-.sld1 p:nth-child(2) {
-  bottom: 10vw;
-  left: 7vw;
-  font-family: 'Gmarket SansL', sans-serif;
-  font-size: 2vw;
-}
-
-.sld2 p{
-  position: absolute;
-  color: #000000;
-  font-family: 'Gmarket SansB', sans-serif;
-  font-size: 3vw;
-  letter-spacing: 1px;
-  bottom: 28vw;
-  left: 158vw;
-}
-.sld2 p:nth-child(2), .sld2 p:nth-child(3), .sld2 p:nth-child(4) {
-  font-family: 'Gmarket SansL', sans-serif;
-  font-weight: lighter;
-  bottom: 25vw;
-  left: 159vw;
-  font-size: 2vw;
-}
-.sld2 p:nth-child(3) {
-  bottom: 22vw;
-}
-.sld2 p:nth-child(4) {
-  bottom: 19vw;
-}
-.sld2 div {
-  left: 181vw;
-  bottom: 14vw;
-}
-
-.sld3 p {
-  position: absolute;
-  left: 204vw;
-  bottom: 25vw;
-  letter-spacing: 1px;
-  color: #fff;
-  font-family: 'Gmarket SansB', sans-serif;
-  font-size: 3vw;
-}
-.sld3 p:nth-child(2), .sld3 p:nth-child(3) {
-  font-family: 'Gmarket SansL', sans-serif;
-  font-size: 2vw;
-  bottom: 22vw;
-}
-.sld3 p:nth-child(3) {
-  bottom: 19vw;
-}
-.sld3 div {
-  left: 204vw;
-  bottom: 14vw;
-}
-
-.sld4 p {
-  position: absolute;
-  left: 303vw;
-  bottom: 22vw;
-  color: #ffff;
-  font-family: 'Gmarket SansL', sans-serif;
-  font-size: 3vw;
-  letter-spacing: 1px;
-}
-.sld4 p:nth-child(1){
+.s4_txt4-1{
   font-family: 'Yeseva One', cursive;
+  font-size: 3vw;
   font-weight: 900;
+  letter-spacing: 1px;
 }
-.sld4 p:nth-child(2), .sld4 p:nth-child(3), .sld4 p:nth-child(4){
-  font-family: 'Gmarket SansL', sans-serif;
+.s4_txt4-2{
+  
+}
+.s4_txt4-2, .s4_txt4-3, .s4_txt4-4 {
+  font-weight: normal;
   font-size: 2vw;
-  left: 304vw;
-  bottom: 16vw;
+  font-family: 'GmarketSans', sans-serif;
 }
-.sld4 p:nth-child(2) {
-  font-family: 'Yeseva One', cursive;
-  bottom: 20vw;
-  left: 324vw;
+.sld_twrap4 .b_link {
+  color:#000000;
 }
-.sld4 p:nth-child(4) {
-  bottom: 13vw;
+.sld_twrap4 .b_link:hover {
+  border: 1.5px solid #000000;
 }
-.sld4 div {
-  left: 338vw;
-  bottom: 8vw;
-}
+
 
 .sec2 {
   background-image: url(../img/ceefd1597e5fc.jpg);
@@ -170,7 +192,7 @@
 .opa_black{
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .s2_txt {
   width: 100%;
@@ -205,14 +227,28 @@
   transition: all 1s;
 }
 
-.swiper{
+.magazin{
+  margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 65%;
   background-color: #142f5f;
 }
-.swiper-slide{
+.maga_head{
   width: 100%;
-  background-color: aquamarine;
+  height: 10%;
+}
+
+.magazin .swiper2{
+  width: 100%;
+  height: 90%;
+  background-color: #142f5f;
+}
+.swiper2 .swiper-wrapper {
+  height: 90%;
+}
+.swiper_container2 .swiper-slide{
+  width: 100%;
+  /* background-color: aquamarine; */
   /* flex-shrink: 1; */
 }
 .swiper-slide a {
@@ -220,17 +256,12 @@
   height: 100%;
   display: block;
 }
-
-.megazin{
-  margin: 0 auto;
-  width: 100%;
-  height: 65%;
+.swiper2 .swiper-pagination-bullet{
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
 }
-.mega_head{
-  width: 100%;
-  height: 10%;
-}
-.megaz1 {
+.magaz1 {
   width: 100%;
   height: 100%;
   background-image: url('../img/288874846_2809120596050785_5313603288664687065_n.jpg');
@@ -238,7 +269,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz2 {
+.magaz2 {
   width: 100%;
   height: 100%;
   background-image: url('../img/293462548_1009590026408241_6100688302313113534_n.jpg');
@@ -246,7 +277,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz3 {
+.magaz3 {
   width: 100%;
   height: 100%;
   background-image: url('../img/327277694_493701552837735_2612537996507002737_n.jpg');
@@ -254,7 +285,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz4 {
+.magaz4 {
   width: 100%;
   height: 100%;
   background-image: url('../img/241799666_868548177148141_4591567237786657978_n.jpg');
@@ -262,7 +293,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz5 {
+.magaz5 {
   width: 100%;
   height: 100%;
   background-image: url('../img/238271353_1195518027619672_1773767852142831003_n.jpg');
@@ -270,23 +301,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz6 {
+.magaz6 {
   width: 100%;
   height: 100%;
-  background-image: url('../img/149611945_175953490657827_3529920725377026245_n.jpg');
+  background-image: url('../img/287568227_171820865258294_2713966319872615816_n.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz7 {
+.magaz7 {
   width: 100%;
   height: 100%;
-  background-image: url('../img/273548265_122653810296517_1971324416324272397_n.jpg');
+  background-image: url('../img/271144556_304731611439236_2472517441834248028_n.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.megaz8 {
+.magaz8 {
   width: 100%;
   height: 100%;
   background-image: url('../img/242562542_2977802909144396_83030365729947734_n.jpg');
@@ -295,13 +326,59 @@
   background-size: cover;
 }
 
+.insta_wrap {
+  width: 100%;
+  height: 400px;
+  margin: auto 0;
+  padding: 0;
 
-
-
-
-.swiper-pagination-bullet {
-  background-color: #142f5f;
-  width: 12px;
-  height: 12px;
+}
+.inst_title{
+  width: 100%;
+  height: 20%
+}
+.inst_title h1 {
+  font-family: 'Yeseva One', cursive;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+}
+.insta_list{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.insta_list div {
+  width: 100%;
+  height: 100%;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
+.insta_item1{
+  background-image: url('../img/299035892_1107626519858753_6005589245370092147_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.insta_item2{
+  background-image: url('../img/229257714_3726556337444402_1096990746151524930_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.insta_item3{
+  background-image: url('../img/296823808_617595873003287_2620512623972239427_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.insta_item4{
+  background-image: url('../img/279267338_959759518056423_7900607195480453528_n.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.insta_list div:hover {
+  filter: brightness(0.5);
+}

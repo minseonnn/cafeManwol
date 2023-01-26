@@ -16,26 +16,29 @@ body {
 
 
 .top_btn{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   bottom: 50px;
   right: 50px;
-  text-align: center;
-  line-height: 70px;
-  color: white;
-  font-size: 20px;
-  font-weight: 400;
-  transition-property: background-color, opacity, visibility;
   transition-duration: 0.3s, 0.5s, 0.5s;
   z-index: 999;
   cursor: pointer;
-  background-color: #142f5f;
+  background-color: transparent;
   border: none;
+  border-radius: 50%;
+  background-image: url('../img/logo1.png');
+  background-position: center;
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -82,23 +85,49 @@ a {
 .ham_btn {
   width: 30px;
   height: 100%;
-  padding-top: 20px;
   box-sizing: border-box;
   cursor: pointer;
-  text-align: center;
   font-weight: 900;
+
+  position: relative;
+  transition: .3s ease-in-out;
 }
 .line {
+  position: absolute;
   width: 100%;
-  height: 1px;
-  margin-bottom: 10px;
+  height: 2px;
   background: black;
-  font-family: 'Fira Sans', sans-serif;
-  font-family: 'Libre Franklin', sans-serif;
+  transition: .2s;
 } 
+.line:nth-child(1){
+  top: 15px;
+}
+.line:nth-child(2), .line:nth-child(3){
+  top: 25px;
+}
+.line:nth-child(4){
+  top: 35px;
+}
+
 
 /* 풋터 */
 .footer {
-width: 100%;
-height: 10vw;
+  width: 100%;
+  height: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  font-family: 'serif';
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  border-top: 1px solid #a0a0a0;
+}
+.f_logo {
+  width: 15%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('../img/logo1.png');
+  background-position: center;
+  background-size: cover;
 }
