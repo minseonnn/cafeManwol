@@ -27,5 +27,14 @@
   margin: 0 30px;
 }
 .pro_container {
-  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+/* .pro_item {
+  width: 10vw;
+  height: 10vw;
+  border: 1px solid;
+  box-sizing: border-box;
+} */
