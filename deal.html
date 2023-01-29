@@ -5,13 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/product.css">
+  <link rel="stylesheet" href="./css/deal.css">
+
+  <script src="./js/manwol_item_list.js"></script>
+  <script src="./js/load_item.js"></script>
+  <!-- <script src="./js/product.js"></script> -->
+  <script src="./js/deal.js"></script>
+  
 </head>
 <body>
   <div class="wrap">
     <div class="header">
-      <div class="logo"><a href="./index.html"></a></div>
+      <a href="./index.html"><div class="logo"></div></a>
   
       <div class="nav">
         <div class="about"><a href="#">ABOUT</a></div>
@@ -39,7 +47,74 @@
         <a href="#"><div class="pro_manu_title">GROUP ORDER</div></a>
       </div>
       <div class="pro_container">
-        
+        <div class="detail_area">
+          <div class="detail_img_box">
+            <img src="" alt="" id="deal_img">
+          </div>
+          <div class="detail_info">
+            <div class="pro_title"></div>
+            <div class="t_wrap">
+              <div class="t_name">소비자가</div>
+              <div class="t_cont"  id="s_price"></div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">배송</div>
+              <div class="t_cont">주문 후 영업일 기준 3일 이내 발송됩니다.<br>물 아이스팩 + 아이스박스 (아이스팩 안에는 물이 들어 있으니 가위로 모서리 부분을 잘라 싱크대 또는 배수구에 버려주신 후 비닐은 분리수거 해주시면 됩니다.)</div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">보관방법 및 유통기한</div>
+              <div class="t_cont">신선식품으로 제품 수령 후 냉장 보관(0-5℃)은 필수이며, 유통기한은 수령일로부터 8주(쑥, 리얼딸기 4주)입니다. 패키지 하단에 유통기한이 별도로 표기되어있습니다.</div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">원산지</div>
+              <div class="t_cont">대한민국</div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">배송방법</div>
+              <div class="t_cont">택배</div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">배송비</div>
+              <div class="t_cont">3,000원 (30,000원 이상 무료배송)</div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">용량</div>
+              <div class="t_cont">
+                <select id="sel">
+                  <option value="">한 상자에 2개입</option>
+                  <option value="">한 상자에 12개입(-17%)</option>
+                </select>
+              </div>
+            </div>
+            <div class="t_wrap">
+              <div class="t_name">종류</div>
+              <div class="t_cont">
+                <select id="sel">
+                  <option value="222222">밀크티</option>
+                  <option value="">피치앤블랙티</option>
+                  <option value="">말차</option>
+                  <option value="">리얼딸기</option>
+                  <option value="">자몽샤워</option>
+                  <option value="">악마초코</option>
+                  <option value="">콜드브루</option>
+                  <option value="">민트초코</option>
+                  <option value="">쑥</option>
+                  <option value="">단호박</option>
+                </select>
+              </div>
+            </div>
+            <div class="price_total">
+              <div>TOTAL: <span id="p_tot">0 원</span> (0개)</div>
+            </div>
+            <div class="t_wrap">
+              <div class="buy_btn">구매하기</div>
+              <div class="cart_btn">장바구니</div>
+            </div>
+          </div>
+        </div>
+        <div class="content_area">
+
+        </div>
       </div>
     </div>
     <div class="footer">
