@@ -1,4 +1,4 @@
-const cate_arr = ['all', 'manwol base', 'manwol goods', 'gift', 'group order']; 
+const cate_arr = ['all', 'manwol_base', 'manwol_goods', 'gift', 'group_order']; 
 
 function make_sec(product_id) {  
   let list = `<div class="product" id="${product_id}">
@@ -8,7 +8,6 @@ function make_sec(product_id) {
 }
 
 function load_list(cate_idx, start_idx, show_qty) { 
-  $(`#${cate_arr[cate_idx]} > .pro_title`).text(cate_arr[cate_idx].toUpperCase());
   
   let rs = ITEM_LIST[cate_idx]; 
 
@@ -30,8 +29,10 @@ function load_list(cate_idx, start_idx, show_qty) {
                   list += `</a> 
                       </div>
                       <div class="item_info">
+                        <a href="deal.html?cate=${cate_idx}&item=${rs[i].item_no}"> 
                           <div class="item_title">${rs[i].title}</div>
-                          <div class="item_s_price"><del>${rs[i].s_price}</del></div>
+                          <div class="item_s_price"><div>${rs[i].s_price}</div></div>
+                        </a>  
                       </div>
                   </div>`;
       $(`#${cate_arr[cate_idx]} > .pro_body`).append(list); 
