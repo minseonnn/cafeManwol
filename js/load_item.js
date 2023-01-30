@@ -29,7 +29,7 @@ function load_list(cate_idx, start_idx, show_qty) {
                   list += `</a> 
                       </div>
                       <div class="item_info">
-                        <a href="deal.html?cate=${cate_idx}&item=${rs[i].item_no}"> 
+                        <a href="manwol_deal.html?cate=${cate_idx}&item=${rs[i].item_no}"> 
                           <div class="item_title">${rs[i].title}</div>
                           <div class="item_s_price"><div>${rs[i].s_price}</div></div>
                         </a>  

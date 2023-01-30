@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   input#hambox {
+    display: none;
+   }
+   .ham_btn {
+    display: block;
+    margin: 30px;
+    width: 60px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+   }
+   .ham_btn span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #000;
+    transition: all .3s;
+   }
+   .ham_btn span:nth-child(1) {
+    top: 0;
+   }
+   .ham_btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+   } 
+   .ham_btn span:nth-child(3){
+    bottom: 0;
+   }
+   input#hambox:checked label {
+    z-index: 2;
+   }
+   input#hambox:checked + label span {
+    background-color: rgb(255, 255, 255);
+   }
+   input#hambox:checked+ label span:nth-child(1){
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    z-index: 3;
+   }
+   input#hambox:checked + label span:nth-child(2) {
+    opacity: 0;
+   }
+   input#hambox:checked + label span:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+    z-index: 3;
+   }
+   .sidebar {
+    width: 300px;
+    height: 100%;
+    background-color:#222;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 1;
+    transition: all .3s;
+   }
+   input#hambox:checked + label + .sidebar {
+    left: 0;
+   }
+   .side_cont {
+    width: 100%;
+    height: 70px;
+   }
+  </style>
+</head>
+<body>
+<input type="checkbox" id="hambox">
+<label for="hambox" class="ham_btn">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+<div class="sidebar">
+  <div class="side_cont"><a href="">로그인</a></div>
+  <div class="side_cont"><a href="">장바구니</a></div>
+  <div class="side_cont"><a href="">레시피</a></div>
+</div>
+</body>
+</html>

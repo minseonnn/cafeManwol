@@ -82,32 +82,75 @@ p {
 }
 
 /* 햄버거 버튼 */
-.ham_btn {
-  width: 30px;
-  height: 100%;
-  box-sizing: border-box;
-  cursor: pointer;
-  font-weight: 900;
-
+input#hambox {
+  display: none;
+ }
+ .ham_btn {
+  display: block;
+  width: 25px;
+  height: 20px;
   position: relative;
-  transition: .3s ease-in-out;
-}
-.line {
+  cursor: pointer;
+  margin-top: 19px;
+ }
+ .ham_btn span {
+  display: block;
   position: absolute;
   width: 100%;
   height: 2px;
-  background: black;
-  transition: .2s;
-} 
-.line:nth-child(1){
-  top: 15px;
-}
-.line:nth-child(2), .line:nth-child(3){
-  top: 25px;
-}
-.line:nth-child(4){
-  top: 35px;
-}
+  background: rgb(49, 49, 49);
+  transition: all .3s;
+ }
+ .ham_btn span:nth-child(1) {
+  top: 0;
+ }
+ .ham_btn span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+ } 
+ .ham_btn span:nth-child(3){
+  bottom: 0;
+ }
+ input#hambox:checked label {
+  z-index: 2;
+ }
+ input#hambox:checked + label span {
+  background-color: rgb(255, 255, 255);
+ }
+ input#hambox:checked+ label span:nth-child(1){
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  z-index: 90;
+ }
+ input#hambox:checked + label span:nth-child(2) {
+  opacity: 0;
+ }
+ input#hambox:checked + label span:nth-child(3) {
+  bottom: 50%;
+  transform: translateY(50%) rotate(-45deg);
+  z-index: 90;
+ }
+ .sidebar {
+  width: 300px;
+  height: 300px;
+  background-color:#222;
+  position: fixed;
+  top: 0;
+  right: -350px;
+  z-index: 80;
+  transition: all .3s;
+ }
+ input#hambox:checked + label + .sidebar {
+  right: -40px;
+ }
+ .side_cont {
+  width: 100%;
+  height: 70px;
+  font-family: 'Pretendard-Regular';
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+ }
 
 
 /* 풋터 */
