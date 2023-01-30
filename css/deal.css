@@ -74,3 +74,10 @@ select {
   text-align: center;
   border: 1px solid black;
 }
+.buy_btn:hover {
+  background-color: black;
+}
+.cart_btn:hover{
+  background-color: black;
+  color: #fff;
+}

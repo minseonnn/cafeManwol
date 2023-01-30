@@ -20,7 +20,7 @@ function load_list(cate_idx, start_idx, show_qty) {
   for(let i=start_idx; i<tmp_qty; i++) {
       let list = `<div class="item_box">
                       <div class="item_img">
-                          <a href="deal.html?cate=${cate_idx}&item=${rs[i].item_no}"> 
+                          <a href="manwol_deal.html?cate=${cate_idx}&item=${rs[i].item_no}"> 
                               <img src="${rs[i].src}" alt="">`;
 
               if(cate_idx == 1)

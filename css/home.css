@@ -227,24 +227,35 @@
   transition: all 1s;
 }
 
+.sec3 {
+  background-color: brown;
+}
 .magazin{
   margin: 0 auto;
   width: 100%;
-  height: 65%;
-  background-color: #142f5f;
+  height: 70%;
+  background-color: brown;
 }
 .maga_head{
   width: 100%;
   height: 10%;
 }
-
+.maga_head p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  box-sizing: border-box;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 20px;
+}
 .magazin .swiper2{
   width: 100%;
   height: 90%;
-  background-color: #142f5f;
+  background-color: brown;
 }
 .swiper2 .swiper-wrapper {
-  height: 90%;
+  height: 85%;
 }
 .swiper_container2 .swiper-slide{
   width: 100%;
@@ -257,7 +268,7 @@
   display: block;
 }
 .swiper2 .swiper-pagination-bullet{
-  background-color: #fff;
+  background-color:#142f5f;
   width: 10px;
   height: 10px;
 }
@@ -324,6 +335,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.maga_txt {
+  color: #fff;
+  box-sizing: border-box;
+  padding: 5px 0;
+  cursor: pointer;
+  font-family: 'GmarketSans';
+  font-size: 12px;
+  font-weight: 100;
+}
+.swiper_container2 .swiper-slide>a{
+  transition: .5s;
+}
+.swiper_container2 .swiper-slide>a:hover{
+  filter: brightness(0.5);
+  transition: .5s;
 }
 
 .insta_wrap {
