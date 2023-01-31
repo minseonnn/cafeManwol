@@ -4,9 +4,227 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>Document</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="./js/jquery.fullPage.js"></script>
+  <script src="./js/f_custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="./js/sw_option.js"></script>
+  <link rel="stylesheet" href="./css/jquery.fullPage.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/home.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+  </style>
+
 </head>
 <body>
+  <div class="header">
+    <a href="./manwol_main.html"><div class="logo"></div></a>
+
+    <div class="nav">
+      <div class="about"><a href="#">ABOUT</a></div>
+      <div class="store"><a href="./manwol_product.html?cate=0">STORE</a></div>
+      <div class=" cummunity"><a href="#">CUMMUNITY</a></div>
+    </div>
+
+    <input type="checkbox" id="hambox">
+    <label for="hambox" class="ham_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class="sidebar">
+      <div class="side_cont"></div>
+      <div class="side_cont"><a href="">로그인</a></div>
+      <div class="side_cont"><a href="">장바구니</a></div>
+      <div class="side_cont"><a href="">레시피</a></div>
+    </div>
+
+  </div>
+
+  <a href="#section1">
+    <button class="top_btn"></button>
+  </a>
+
+  <div id="fullpage">
+
+    <div class="section sec1" id="section1">
+      <div class="swiper swiper1">
+        <div class="swiper-wrapper swiper_container1">
+          <div class="swiper-slide">
+            <div class="sld1">
+              <div class="sld_twrap1">
+                <p class="s1_txt1-1">취향껏 즐기는 나만의 홈카페</p>
+                <p class="s1_txt1-2">당신의 취향은 무엇인가요?</p>
+                <div class="b_link">
+                  <a href="./manwol_deal.html?cate=0&item=0">VIEW MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sld2">
+              <div class="sld_twrap2">
+                <p class="s2_txt2-1">#만월회_시그니처_1위</p>
+                <p class="s2_txt2-2">정성스럽게 우린 얼그레이의 향과</p>
+                <p class="s2_txt2-3">입안 가득 퍼지는 아쌈의</p>
+                <p class="s2_txt2-4">묵직하고 진한 맛을 느껴보세요.</p>
+                <div class="b_link">
+                  <a href="./manwol_deal.html?cate=0&item=0">VIEW MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sld3">
+              <div class="sld_twrap3">
+                <p class="s3_txt3-1">극강의 진한 맛</p>
+                <p class="s3_txt3-2">이렇게 진한 밀크티 보셨나요?</p>
+                <p class="s3_txt3-3">첫 모금에 놀랄거예요. 제대로 진하거든요.</p>
+                <div class="b_link">
+                  <a href="./manwol_deal.html?cate=0&item=0">VIEW MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sld4">
+              <div class="sld_twrap4">
+                <p class="s4_txt4-1">make it more delicious</p>
+                <p class="s4_txt4-2">#manwol_recipe</p>
+                <p class="s4_txt4-3">보름달이 뜨는 날, 금손들의 모임</p>
+                <p class="s4_txt4-4">만월회 원액으로 만든 레시피를 소개합니다.</p>
+                <div class="b_link">
+                  <a href="./manwol_deal.html?cate=0&item=0">VIEW MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="section sec2">
+      <div class="opa_black">
+        <a href ="./manwol_deal.html?cate=0&item=3" class="s2_txt">
+          <p>HAPPY NEW YEAR</p>
+          <P>2023 새해를 맞이하여 만월회의 선물세트를 만나보세요.</P>
+        </a>
+      </div>
+    </div>
+
+    <div class="section sec3">
+      <div class="magazin">
+        <div class="maga_head">
+          <p></p>
+        </div>
+        <div class="swiper swiper2">
+          <div class="swiper-wrapper swiper_container2">
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz1"></div>
+              </a>
+              <div class="maga_txt">Manwol Conference Lepish, watch it now.</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz2"></div>
+              </a>
+              <div class="maga_txt">super moon rises ⏰ Super Sale 🌕</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz3"></div>
+              </a>
+              <div class="maga_txt">Cold Brew's "Rich Fragrance".</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz4"></div>
+              </a>
+              <div class="maga_txt">First official kit.</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz5"></div>
+              </a>
+              <div class="maga_txt">Decaffeinated Cold Brew finally launched</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz6"></div>
+              </a>
+              <div class="maga_txt">Green tea chocolate will be discontinued.</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz7"></div>
+              </a>
+              <div class="maga_txt">"Real" strawberry latte with 83% of strawberries.</div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="magaz8"></div>
+              </a>
+              <div class="maga_txt">more delicious and convenient🍫</div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination pagi2" ></div>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="section sec4" >
+      <div class="insta_wrap">
+        <div class="inst_title"><h1>Instagram@_manwol</h1></div>
+        <div class="insta_list">
+          <div class="insta_item1"></div>
+          <div class="insta_item2"></div>
+          <div class="insta_item3"></div>
+          <div class="insta_item4"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section fp-auto-height" >
+      <div class="footer">
+        <div class="f_logo"></div>
+        <div class="p1">
+          <p>Company : (주)만월회(Manwol Inc.)</p>
+          <p>사업자등록번호 : 665-86-01867 I  대표자 : 박제영</p>
+          <p>주소 : 경기 용인시 기흥구 서천로201번길 14, 355호</p>
+          <p>Tel : 070 7714 7002  I  Fax : 0504 377 7050</p>
+          <p>계좌번호 : 신한은행 (주)만월회 100035029403 </p>
+        </div>
+        <div class="p2">
+          <p>고객센터 : 070-7714-7002 </p>
+          <p>월-금 9:00-18:00(주말/공휴일 제외)</p>
+          <p>점심시간 12:00-13:00</p>
+          <p>Mail : jeyoung@manwol.com</p>
+          <p>통신판매업신고번호 : 2020-용인기흥-2241</p>
+          <p>이용약관 개인정보처리방침</p>
+          <p>ⓒ2020. (주)만월회 all right reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
