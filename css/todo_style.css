@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: white;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input::placeholder{
+  color: white;
+}
+
+button{
+  border: none;
+  background: transparent;
+}
+
+#clock {
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#login-form {
+  padding: 5px 0;
+  text-align: center;
+}
+
+#login-form input {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+#login-form button {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#greeting {
+  font-family: serif;
+  font-style:italic ;
+  font-weight: bolder;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#todo-form {
+  padding: 5px 0;
+}
+
+#todo-form input {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#quote {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#quote span:last-child {
+  display: block;
+  text-align: center;
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#todo-list{
+  overflow: overlay;
+  height: 150px;
+  border-top: 10px solid transparent;
+}
+
+#todo-list>li{
+  border-bottom: 5px solid transparent ;
+}
+
+#todo-list>li>span {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#todo-list::-webkit-scrollbar {
+  width: 0.2vw;
+}
+#todo-list::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.614);
+}
